@@ -9,7 +9,7 @@ export function makeHeader() {
     header.id = 'header'
 
     let icon = document.createElement('img')
-    icon.src = '/images/deer.png' 
+    icon.src = 'https://github.com/bryce-wiseman/odin-restaurant-page/blob/main/images/deer.png?raw=true' 
     icon.id = 'logo'
     header.appendChild(icon)
 

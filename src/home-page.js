@@ -20,7 +20,7 @@ export function loadHome() {
     location.className = 'main-content'
     location.textContent = 'Located in the heart of the Forgotten Realms, the original site of The Black Stag is situated in the charming city of Ilipur with a beautiful view of the coast off of The Dragonmere.'
     let map = document.createElement('img')
-    map.src = '/images/faerun.jpg'
+    map.src = 'https://github.com/bryce-wiseman/odin-restaurant-page/blob/main/images/faerun.jpg?raw=true'
     map.id = 'map'
     location.appendChild(map)
     main.appendChild(location)
